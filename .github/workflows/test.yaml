@@ -12,9 +12,9 @@ jobs:
       - ubuntu-latest
       
     steps:
-      - name: Install / Configure AWS CLI
+      - name: Echo inputs
         run: |
-          echo " Given parameter is: #environment"
+          echo " Given parameter is: $environment"
           
       - name: Install / Configure AWS CLI
         run: |
